@@ -1,0 +1,188 @@
+[
+  {
+    "id": "task-001",
+    "agent": "frontend-developer",
+    "description": "Set up the React project structure with create-react-app",
+    "file_path": "client/package.json"
+  },
+  {
+    "id": "task-002",
+    "agent": "frontend-developer",
+    "description": "Create the main App component",
+    "file_path": "client/src/App.jsx"
+  },
+  {
+    "id": "task-003",
+    "agent": "frontend-developer",
+    "description": "Create the Navbar component for the website header",
+    "file_path": "client/src/components/Navbar.jsx"
+  },
+  {
+    "id": "task-004",
+    "agent": "frontend-developer",
+    "description": "Create the Footer component for the website footer",
+    "file_path": "client/src/components/Footer.jsx"
+  },
+  {
+    "id": "task-005",
+    "agent": "frontend-developer",
+    "description": "Create the Home page component",
+    "file_path": "client/src/pages/Home.jsx"
+  },
+  {
+    "id": "task-006",
+    "agent": "frontend-developer",
+    "description": "Create the Product List component for displaying products",
+    "file_path": "client/src/components/ProductList.jsx"
+  },
+  {
+    "id": "task-007",
+    "agent": "frontend-developer",
+    "description": "Create the Product Detail component for showing individual product details",
+    "file_path": "client/src/components/ProductDetail.jsx"
+  },
+  {
+    "id": "task-008",
+    "agent": "frontend-developer",
+    "description": "Create the Shopping Cart component",
+    "file_path": "client/src/components/ShoppingCart.jsx"
+  },
+  {
+    "id": "task-009",
+    "agent": "frontend-developer",
+    "description": "Create the Checkout form component",
+    "file_path": "client/src/components/CheckoutForm.jsx"
+  },
+  {
+    "id": "task-010",
+    "agent": "frontend-developer",
+    "description": "Set up React Router for navigation",
+    "file_path": "client/src/App.jsx"
+  },
+  {
+    "id": "task-011",
+    "agent": "backend-developer",
+    "description": "Initialize the Node.js server with Express",
+    "file_path": "server/index.js"
+  },
+  {
+    "id": "task-012",
+    "agent": "backend-developer",
+    "description": "Set up middleware for parsing JSON and handling CORS",
+    "file_path": "server/index.js"
+  },
+  {
+    "id": "task-013",
+    "agent": "backend-developer",
+    "description": "Create the database schema for PostgreSQL",
+    "file_path": "server/database/schema.sql"
+  },
+  {
+    "id": "task-014",
+    "agent": "backend-developer",
+    "description": "Set up the database connection with Sequelize",
+    "file_path": "server/config/database.js"
+  },
+  {
+    "id": "task-015",
+    "agent": "backend-developer",
+    "description": "Create the Product model",
+    "file_path": "server/models/Product.js"
+  },
+  {
+    "id": "task-016",
+    "agent": "backend-developer",
+    "description": "Create the User model",
+    "file_path": "server/models/User.js"
+  },
+  {
+    "id": "task-017",
+    "agent": "backend-developer",
+    "description": "Create the Order model",
+    "file_path": "server/models/Order.js"
+  },
+  {
+    "id": "task-018",
+    "agent": "backend-developer",
+    "description": "Create API routes for products",
+    "file_path": "server/routes/products.js"
+  },
+  {
+    "id": "task-019",
+    "agent": "backend-developer",
+    "description": "Create API routes for users",
+    "file_path": "server/routes/users.js"
+  },
+  {
+    "id": "task-020",
+    "agent": "backend-developer",
+    "description": "Create API routes for orders",
+    "file_path": "server/routes/orders.js"
+  },
+  {
+    "id": "task-021",
+    "agent": "frontend-developer",
+    "description": "Integrate the frontend with the backend API for product listing",
+    "file_path": "client/src/services/apiService.js"
+  },
+  {
+    "id": "task-022",
+    "agent": "frontend-developer",
+    "description": "Integrate the frontend with the backend API for user authentication",
+    "file_path": "client/src/services/authService.js"
+  },
+  {
+    "id": "task-023",
+    "agent": "frontend-developer",
+    "description": "Integrate the frontend with the backend API for order processing",
+    "file_path": "client/src/services/orderService.js"
+  },
+  {
+    "id": "task-024",
+    "agent": "frontend-developer",
+    "description": "Implement state management using Redux or Context API",
+    "file_path": "client/src/store/store.js"
+  },
+  {
+    "id": "task-025",
+    "agent": "designer",
+    "description": "Design the website layout and theme",
+    "file_path": "designs/layout_and_theme.pdf"
+  },
+  {
+    "id": "task-026",
+    "agent": "designer",
+    "description": "Create the style guide and UI components",
+    "file_path": "designs/style_guide.pdf"
+  },
+  {
+    "id": "task-027",
+    "agent": "frontend-developer",
+    "description": "Implement responsive design using CSS or a CSS framework",
+    "file_path": "client/src/styles/main.css"
+  },
+  {
+    "id": "task-028",
+    "agent": "devops-engineer",
+    "description": "Set up the production build pipeline",
+    "file_path": "scripts/build_pipeline.sh"
+  },
+  {
+    "id": "task-029",
+    "agent": "devops-engineer",
+    "description": "Deploy the application to a cloud service",
+    "file_path": "scripts/deployment.sh"
+  },
+  {
+    "id": "task-030",
+    "agent": "qa-engineer",
+    "description": "Write end-to-end tests for the e-commerce website",
+    "file_path": "tests/e2e_tests.js"
+  },
+  {
+    "id": "task-031",
+    "agent": "qa-engineer",
+    "description": "Perform load testing on the server",
+    "file_path": "tests/load_testing.js"
+  }
+]
