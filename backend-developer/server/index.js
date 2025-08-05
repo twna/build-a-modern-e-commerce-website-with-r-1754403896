@@ -1,38 +1,44 @@
 const express = require('express');
+const cors = require('cors');
+
 const app = express();
-const port = process.env.PORT || 3000;
 
-app.get('/', (req, res) => {
-  res.send('Hello World!');
-});
+// Middleware for parsing JSON
+app.use(express.json());
 
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
+// Middleware for handling CORS
+app.use(cors());
+
+// ... rest of your route handlers ...
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
 });
 {
   "checklist": [
     {
-      "step": "Create a project directory",
+      "task": "Import Express module",
       "completed": true
     },
     {
-      "step": "Initialize a Node.js project",
+      "task": "Import CORS module",
       "completed": true
     },
     {
-      "step": "Install Express",
+      "task": "Create Express application instance",
       "completed": true
     },
     {
-      "step": "Create a server file",
+      "task": "Set up JSON parsing middleware",
       "completed": true
     },
     {
-      "step": "Set up Express server",
+      "task": "Set up CORS middleware",
       "completed": true
     },
     {
-      "step": "Start the server",
+      "task": "Start server and listen on a port",
       "completed": true
     }
   ]
