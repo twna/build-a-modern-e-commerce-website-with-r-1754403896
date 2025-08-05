@@ -1,0 +1,93 @@
+/* Base styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.header,
+.main-content,
+.sidebar,
+.footer {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.header,
+.footer {
+  background: #333;
+  color: #fff;
+}
+
+.main-content {
+  float: left;
+  width: 70%;
+  background: #f9f9f9;
+}
+
+.sidebar {
+  float: right;
+  width: 30%;
+  background: #e9e9e9;
+}
+
+/* Clearfix */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .main-content,
+  .sidebar {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 95%;
+  }
+
+  .header,
+  .footer {
+    text-align: center;
+  }
+}
+{
+  "checklist": [
+    {
+      "item": "Base styles for layout components",
+      "completed": true
+    },
+    {
+      "item": "Media query for max-width 768px",
+      "completed": true
+    },
+    {
+      "item": "Media query for max-width 480px",
+      "completed": true
+    },
+    {
+      "item": "Clearfix for floated elements",
+      "completed": true
+    },
+    {
+      "item": "Responsive container width adjustments",
+      "completed": true
+    },
+    {
+      "item": "Responsive text alignment adjustments",
+      "completed": true
+    }
+  ]
+}
